@@ -19,3 +19,22 @@ D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form2.resources
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form3.resources
 D:\ARCHIVOS!!\ESCRITORIO\prime_cinema\Prime cinema\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Menu1.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.csproj.AssemblyReference.cache
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema..resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.busnom.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form1.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form2.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Form3.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Menu1.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.Properties.Resources.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.publi.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.csproj.GenerateResource.cache
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.AssemblyInfoInputs.cache
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.AssemblyInfo.cs
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.csproj.CoreCompileInputs.cache
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.dll
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\refint\Prime cinema.dll
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime cinema.pdb
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.buscarsucur.resources
+C:\Users\carlo\OneDrive\Documentos\GitHub\PRIME_CINEMA1\Prime cinema\obj\Debug\net6.0-windows\Prime_cinema.mostcart.resources

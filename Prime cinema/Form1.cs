@@ -53,7 +53,7 @@ namespace Prime_cinema
 
             // Cierra el formulario actual
             this.Hide();
-      
+
 
             // Muestra el nuevo formulario
             formulario2.ShowDialog();

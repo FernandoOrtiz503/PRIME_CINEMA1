@@ -28,331 +28,322 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.cerrar = new System.Windows.Forms.Button();
-            this.max = new System.Windows.Forms.Button();
-            this.minimizar = new System.Windows.Forms.Button();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.SuspendLayout();
+            panel1 = new Panel();
+            button8 = new Button();
+            button7 = new Button();
+            button6 = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            button5 = new Button();
+            button2 = new Button();
+            panel2 = new Panel();
+            panel3 = new Panel();
+            button9 = new Button();
+            button10 = new Button();
+            button1 = new Button();
+            button11 = new Button();
+            cerrar = new Button();
+            max = new Button();
+            minimizar = new Button();
+            panel4 = new Panel();
+            panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.panel1.BackgroundImage = global::Prime_cinema.Properties.Resources.base2;
-            this.panel1.Controls.Add(this.button8);
-            this.panel1.Controls.Add(this.button7);
-            this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.button4);
-            this.panel1.Controls.Add(this.button3);
-            this.panel1.Controls.Add(this.button5);
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Location = new System.Drawing.Point(0, 30);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(226, 662);
-            this.panel1.TabIndex = 0;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel2.BackgroundImage = global::Prime_cinema.Properties.Resources.textura;
-            this.panel2.Location = new System.Drawing.Point(224, 30);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1038, 662);
-            this.panel2.TabIndex = 1;
-            // 
-            // panel3
-            // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::Prime_cinema.Properties.Resources.barra;
-            this.panel3.Controls.Add(this.button9);
-            this.panel3.Controls.Add(this.button10);
-            this.panel3.Controls.Add(this.button1);
-            this.panel3.Controls.Add(this.button11);
-            this.panel3.Controls.Add(this.cerrar);
-            this.panel3.Controls.Add(this.max);
-            this.panel3.Controls.Add(this.minimizar);
-            this.panel3.Controls.Add(this.panel4);
-            this.panel3.Location = new System.Drawing.Point(0, -2);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1263, 33);
-            this.panel3.TabIndex = 2;
-            // 
-            // button1
-            // 
-            this.button1.BackgroundImage = global::Prime_cinema.Properties.Resources.cinemaal;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(12, 9);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 17);
-            this.button1.TabIndex = 1;
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // cerrar
-            // 
-            this.cerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.cerrar.FlatAppearance.BorderSize = 0;
-            this.cerrar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.cerrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cerrar.Image = global::Prime_cinema.Properties.Resources.eliminar25;
-            this.cerrar.Location = new System.Drawing.Point(2284, 0);
-            this.cerrar.Name = "cerrar";
-            this.cerrar.Size = new System.Drawing.Size(41, 35);
-            this.cerrar.TabIndex = 3;
-            this.cerrar.UseVisualStyleBackColor = true;
-            // 
-            // max
-            // 
-            this.max.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.max.FlatAppearance.BorderSize = 0;
-            this.max.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.max.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.max.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.max.Image = global::Prime_cinema.Properties.Resources.m25;
-            this.max.Location = new System.Drawing.Point(2243, 0);
-            this.max.Name = "max";
-            this.max.Size = new System.Drawing.Size(41, 35);
-            this.max.TabIndex = 2;
-            this.max.UseVisualStyleBackColor = true;
-            // 
-            // minimizar
-            // 
-            this.minimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.minimizar.FlatAppearance.BorderSize = 0;
-            this.minimizar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.minimizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.minimizar.Image = global::Prime_cinema.Properties.Resources.menos25;
-            this.minimizar.Location = new System.Drawing.Point(2202, 0);
-            this.minimizar.Name = "minimizar";
-            this.minimizar.Size = new System.Drawing.Size(41, 35);
-            this.minimizar.TabIndex = 1;
-            this.minimizar.UseVisualStyleBackColor = true;
-            // 
-            // panel4
-            // 
-            this.panel4.Location = new System.Drawing.Point(0, 32);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1261, 661);
-            this.panel4.TabIndex = 1;
-            // 
-            // button2
-            // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.BackgroundImage = global::Prime_cinema.Properties.Resources._2;
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(12, 7);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(184, 177);
-            this.button2.TabIndex = 3;
-            this.button2.UseVisualStyleBackColor = false;
-            // 
-            // button5
-            // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Location = new System.Drawing.Point(20, 201);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(176, 59);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "INICIAR SESION";
-            this.button5.UseVisualStyleBackColor = false;
-            // 
-            // button3
-            // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Location = new System.Drawing.Point(20, 266);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(176, 59);
-            this.button3.TabIndex = 6;
-            this.button3.Text = "INICIAR SESION";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Location = new System.Drawing.Point(20, 331);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(176, 59);
-            this.button4.TabIndex = 7;
-            this.button4.Text = "INICIAR SESION";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // button6
-            // 
-            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.BackColor = System.Drawing.Color.Transparent;
-            this.button6.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button6.Location = new System.Drawing.Point(20, 396);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(176, 59);
-            this.button6.TabIndex = 8;
-            this.button6.Text = "INICIAR SESION";
-            this.button6.UseVisualStyleBackColor = false;
-            // 
-            // button7
-            // 
-            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button7.BackColor = System.Drawing.Color.Transparent;
-            this.button7.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button7.Location = new System.Drawing.Point(20, 471);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(176, 59);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "INICIAR SESION";
-            this.button7.UseVisualStyleBackColor = false;
+            panel1.BackColor = Color.FromArgb(255, 192, 128);
+            panel1.BackgroundImage = Properties.Resources.base2;
+            panel1.Controls.Add(button8);
+            panel1.Controls.Add(button7);
+            panel1.Controls.Add(button6);
+            panel1.Controls.Add(button4);
+            panel1.Controls.Add(button3);
+            panel1.Controls.Add(button5);
+            panel1.Controls.Add(button2);
+            panel1.Location = new Point(0, 30);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(226, 662);
+            panel1.TabIndex = 0;
             // 
             // button8
             // 
-            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button8.BackColor = System.Drawing.Color.Transparent;
-            this.button8.BackgroundImage = global::Prime_cinema.Properties.Resources.boton_amarillo;
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Font = new System.Drawing.Font("Agency FB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button8.Location = new System.Drawing.Point(20, 547);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(176, 59);
-            this.button8.TabIndex = 10;
-            this.button8.Text = "INICIAR SESION";
-            this.button8.UseVisualStyleBackColor = false;
+            button8.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button8.BackColor = Color.Transparent;
+            button8.BackgroundImage = Properties.Resources.boton_amarillo;
+            button8.BackgroundImageLayout = ImageLayout.Stretch;
+            button8.FlatAppearance.BorderSize = 0;
+            button8.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button8.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button8.FlatStyle = FlatStyle.Flat;
+            button8.Font = new Font("Agency FB", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button8.ForeColor = SystemColors.ButtonHighlight;
+            button8.Location = new Point(20, 547);
+            button8.Name = "button8";
+            button8.Size = new Size(176, 59);
+            button8.TabIndex = 10;
+            button8.Text = "INICIAR SESION";
+            button8.UseVisualStyleBackColor = false;
+            // 
+            // button7
+            // 
+            button7.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button7.BackColor = Color.Transparent;
+            button7.BackgroundImage = Properties.Resources.boton_amarillo;
+            button7.BackgroundImageLayout = ImageLayout.Stretch;
+            button7.FlatAppearance.BorderSize = 0;
+            button7.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button7.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button7.FlatStyle = FlatStyle.Flat;
+            button7.Font = new Font("Agency FB", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button7.ForeColor = SystemColors.ButtonHighlight;
+            button7.Location = new Point(20, 471);
+            button7.Name = "button7";
+            button7.Size = new Size(176, 59);
+            button7.TabIndex = 9;
+            button7.Text = "INICIAR SESION";
+            button7.UseVisualStyleBackColor = false;
+            // 
+            // button6
+            // 
+            button6.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button6.BackColor = Color.Transparent;
+            button6.BackgroundImage = Properties.Resources.boton_amarillo;
+            button6.BackgroundImageLayout = ImageLayout.Stretch;
+            button6.FlatAppearance.BorderSize = 0;
+            button6.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button6.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button6.FlatStyle = FlatStyle.Flat;
+            button6.Font = new Font("Agency FB", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button6.ForeColor = SystemColors.ButtonHighlight;
+            button6.Location = new Point(20, 396);
+            button6.Name = "button6";
+            button6.Size = new Size(176, 59);
+            button6.TabIndex = 8;
+            button6.Text = "INICIAR SESION";
+            button6.UseVisualStyleBackColor = false;
+            // 
+            // button4
+            // 
+            button4.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button4.BackColor = Color.Transparent;
+            button4.BackgroundImage = Properties.Resources.boton_amarillo;
+            button4.BackgroundImageLayout = ImageLayout.Stretch;
+            button4.FlatAppearance.BorderSize = 0;
+            button4.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button4.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button4.FlatStyle = FlatStyle.Flat;
+            button4.Font = new Font("Agency FB", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button4.ForeColor = SystemColors.ButtonHighlight;
+            button4.Location = new Point(20, 331);
+            button4.Name = "button4";
+            button4.Size = new Size(176, 59);
+            button4.TabIndex = 7;
+            button4.Text = "INICIAR SESION";
+            button4.UseVisualStyleBackColor = false;
+            // 
+            // button3
+            // 
+            button3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button3.BackColor = Color.Transparent;
+            button3.BackgroundImage = Properties.Resources.boton_amarillo;
+            button3.BackgroundImageLayout = ImageLayout.Stretch;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button3.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Font = new Font("Agency FB", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button3.ForeColor = SystemColors.ButtonHighlight;
+            button3.Location = new Point(20, 266);
+            button3.Name = "button3";
+            button3.Size = new Size(176, 59);
+            button3.TabIndex = 6;
+            button3.Text = "INICIAR SESION";
+            button3.UseVisualStyleBackColor = false;
+            // 
+            // button5
+            // 
+            button5.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
+            button5.BackColor = Color.Transparent;
+            button5.BackgroundImage = Properties.Resources.boton_amarillo;
+            button5.BackgroundImageLayout = ImageLayout.Stretch;
+            button5.FlatAppearance.BorderSize = 0;
+            button5.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button5.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button5.FlatStyle = FlatStyle.Flat;
+            button5.Font = new Font("Agency FB", 18F, FontStyle.Bold, GraphicsUnit.Point);
+            button5.ForeColor = SystemColors.ButtonHighlight;
+            button5.Location = new Point(20, 201);
+            button5.Name = "button5";
+            button5.Size = new Size(176, 59);
+            button5.TabIndex = 5;
+            button5.Text = "INICIAR SESION";
+            button5.UseVisualStyleBackColor = false;
+            // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
+            button2.BackColor = Color.Transparent;
+            button2.BackgroundImage = Properties.Resources._2;
+            button2.BackgroundImageLayout = ImageLayout.Stretch;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button2.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Location = new Point(12, 7);
+            button2.Name = "button2";
+            button2.Size = new Size(184, 177);
+            button2.TabIndex = 3;
+            button2.UseVisualStyleBackColor = false;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.FromArgb(128, 255, 128);
+            panel2.BackgroundImage = Properties.Resources.textura;
+            panel2.Location = new Point(224, 30);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1038, 662);
+            panel2.TabIndex = 1;
+            // 
+            // panel3
+            // 
+            panel3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel3.BackColor = Color.Transparent;
+            panel3.BackgroundImage = Properties.Resources.barra;
+            panel3.Controls.Add(button9);
+            panel3.Controls.Add(button10);
+            panel3.Controls.Add(button1);
+            panel3.Controls.Add(button11);
+            panel3.Controls.Add(cerrar);
+            panel3.Controls.Add(max);
+            panel3.Controls.Add(minimizar);
+            panel3.Controls.Add(panel4);
+            panel3.Location = new Point(0, -2);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1263, 33);
+            panel3.TabIndex = 2;
             // 
             // button9
             // 
-            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.LightCoral;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Image = global::Prime_cinema.Properties.Resources.eliminar25;
-            this.button9.Location = new System.Drawing.Point(1219, 0);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(41, 35);
-            this.button9.TabIndex = 6;
-            this.button9.UseVisualStyleBackColor = true;
+            button9.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button9.FlatAppearance.BorderSize = 0;
+            button9.FlatAppearance.MouseDownBackColor = Color.LightCoral;
+            button9.FlatAppearance.MouseOverBackColor = Color.Red;
+            button9.FlatStyle = FlatStyle.Flat;
+            button9.Image = Properties.Resources.eliminar25;
+            button9.Location = new Point(1219, 0);
+            button9.Name = "button9";
+            button9.Size = new Size(41, 35);
+            button9.TabIndex = 6;
+            button9.UseVisualStyleBackColor = true;
             // 
             // button10
             // 
-            this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button10.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Image = global::Prime_cinema.Properties.Resources.m25;
-            this.button10.Location = new System.Drawing.Point(1178, 0);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(41, 35);
-            this.button10.TabIndex = 5;
-            this.button10.UseVisualStyleBackColor = true;
+            button10.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button10.FlatAppearance.BorderSize = 0;
+            button10.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            button10.FlatAppearance.MouseOverBackColor = Color.Black;
+            button10.FlatStyle = FlatStyle.Flat;
+            button10.Image = Properties.Resources.m25;
+            button10.Location = new Point(1178, 0);
+            button10.Name = "button10";
+            button10.Size = new Size(41, 35);
+            button10.TabIndex = 5;
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            button1.BackgroundImage = Properties.Resources.cinemaal;
+            button1.BackgroundImageLayout = ImageLayout.Stretch;
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatAppearance.MouseDownBackColor = Color.Transparent;
+            button1.FlatAppearance.MouseOverBackColor = Color.Transparent;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.Location = new Point(12, 9);
+            button1.Name = "button1";
+            button1.Size = new Size(160, 17);
+            button1.TabIndex = 1;
+            button1.UseVisualStyleBackColor = true;
             // 
             // button11
             // 
-            this.button11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button11.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Image = global::Prime_cinema.Properties.Resources.menos25;
-            this.button11.Location = new System.Drawing.Point(1137, 0);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(41, 35);
-            this.button11.TabIndex = 4;
-            this.button11.UseVisualStyleBackColor = true;
+            button11.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button11.FlatAppearance.BorderSize = 0;
+            button11.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            button11.FlatAppearance.MouseOverBackColor = Color.Black;
+            button11.FlatStyle = FlatStyle.Flat;
+            button11.Image = Properties.Resources.menos25;
+            button11.Location = new Point(1137, 0);
+            button11.Name = "button11";
+            button11.Size = new Size(41, 35);
+            button11.TabIndex = 4;
+            button11.UseVisualStyleBackColor = true;
+            // 
+            // cerrar
+            // 
+            cerrar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            cerrar.FlatAppearance.BorderSize = 0;
+            cerrar.FlatAppearance.MouseDownBackColor = Color.LightCoral;
+            cerrar.FlatAppearance.MouseOverBackColor = Color.Red;
+            cerrar.FlatStyle = FlatStyle.Flat;
+            cerrar.Image = Properties.Resources.eliminar25;
+            cerrar.Location = new Point(2284, 0);
+            cerrar.Name = "cerrar";
+            cerrar.Size = new Size(41, 35);
+            cerrar.TabIndex = 3;
+            cerrar.UseVisualStyleBackColor = true;
+            // 
+            // max
+            // 
+            max.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            max.FlatAppearance.BorderSize = 0;
+            max.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            max.FlatAppearance.MouseOverBackColor = Color.Black;
+            max.FlatStyle = FlatStyle.Flat;
+            max.Image = Properties.Resources.m25;
+            max.Location = new Point(2243, 0);
+            max.Name = "max";
+            max.Size = new Size(41, 35);
+            max.TabIndex = 2;
+            max.UseVisualStyleBackColor = true;
+            // 
+            // minimizar
+            // 
+            minimizar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            minimizar.FlatAppearance.BorderSize = 0;
+            minimizar.FlatAppearance.MouseDownBackColor = Color.FromArgb(64, 64, 64);
+            minimizar.FlatAppearance.MouseOverBackColor = Color.Black;
+            minimizar.FlatStyle = FlatStyle.Flat;
+            minimizar.Image = Properties.Resources.menos25;
+            minimizar.Location = new Point(2202, 0);
+            minimizar.Name = "minimizar";
+            minimizar.Size = new Size(41, 35);
+            minimizar.TabIndex = 1;
+            minimizar.UseVisualStyleBackColor = true;
+            // 
+            // panel4
+            // 
+            panel4.Location = new Point(0, 32);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(1261, 661);
+            panel4.TabIndex = 1;
             // 
             // Menu1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1260, 691);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Menu1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Menu1";
-            this.panel1.ResumeLayout(false);
-            this.panel3.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(1260, 691);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "Menu1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Menu1";
+            panel1.ResumeLayout(false);
+            panel3.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion

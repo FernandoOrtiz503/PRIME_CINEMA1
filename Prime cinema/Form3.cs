@@ -54,5 +54,14 @@ namespace Prime_cinema
             // Muestra el nuevo formulario
             formulario2.ShowDialog();
         }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            publi cambiof = new publi();
+
+            cambiof.Show();
+
+            cambiof.Close();
+        }
     }
 }
